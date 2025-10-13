@@ -24,3 +24,6 @@ Demographic information about the users; this is a tab
               The user ids are the ones used in the u.data data set.
 ## Note
 Data files are not uploaded to Github due to size. Download from the source link here (https://grouplens.org/datasets/movielens/100k/)
+
+## Important context
+The dataset was collected between 1995-1998, which explains why most rated movies are from 1970s-1990s. No movies after 1999 are included in this dataset.
