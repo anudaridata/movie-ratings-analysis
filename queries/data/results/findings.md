@@ -17,4 +17,5 @@
 8. Toy Story (1995)|452 ratings
 9. Air Force One (1997)|431 ratings
 10. Independence Day (ID4) (1996)|429 ratings
-**Observation:** Movies that were produced in 1990s dominate the most-rated list. This might be due to the fact that the MovieLens data sets were collected in 19's. 
+## Observation
+Movies that were produced in 1990s dominate the most-rated list. This might be due to the fact that the MovieLens data sets were collected in 19's. 
