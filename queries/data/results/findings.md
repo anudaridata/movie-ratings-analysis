@@ -18,4 +18,4 @@
 9. Air Force One (1997)|431 ratings
 10. Independence Day (ID4) (1996)|429 ratings
 ## Observation
-Movies that were produced in 1990s dominate the most-rated list. This might be due to the fact that the MovieLens data sets were collected in 19's. 
+Movies that were produced in 1990s dominate the most-rated list. This might be due to the fact that the MovieLens data sets were collected from 1995-1998. Movies from the 1970s-1980s like Star Wars and Return of the Jedi had already become classics by the time this data was collected. While Fargo, Liar Liar were recent releases that users were actively rating. This time sense is important to consider when interpreting the "popularity" of these films.  
