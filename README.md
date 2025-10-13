@@ -1,2 +1,2 @@
 # movie-ratings-analysis
-SQL analysis of Movielens dataset exploring movie trends and 
+SQL analysis of Movielens dataset exploring movie trends and ratings
