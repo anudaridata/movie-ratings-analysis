@@ -5,7 +5,7 @@
 - ** Each user has rated at least 20 movies.
 - ** From the data I used u.data (the ratings by each user), u.item (information about the movies), u.user (demographic information about users)
 ## Key Insights
-### Question 1: Most Popular Movies (by number of ratings) 
+## Question 1: Most Popular Movies (by number of ratings) 
 **Top 10 Most-Rated Movies:**
 1. Star Wars (1977)|583 ratings
 2. Contact (1997)|509 ratings
@@ -19,7 +19,7 @@
 10. Independence Day (ID4) (1996)|429 ratings
 ## Observation for Question 1: 
 Movies that were produced in 1990s dominate the most-rated list. This might be due to the fact that the MovieLens data sets were collected from 1995-1998. Movies from the 1970s-1980s like Star Wars and Return of the Jedi had already become classics by the time this data was collected. While Fargo, Liar Liar were recent releases that users were actively rating. This time sense is important to consider when interpreting the "popularity" of these films.  
-### Question 2: Which movies have the highest average rating, considering only movies with at least 50 ratings. Limit the answer to 10
+## Question 2: Which movies have the highest average rating, considering only movies with at least 50 ratings. Limit the answer to 10
 **Top 10 highest average rating movies:**
 1. Close Shave, A (1995)|112 ratings|4.49 average rating
 2. Wrong Trousers The (1993) ratings|118|4.47 average rating
@@ -34,10 +34,9 @@ Movies that were produced in 1990s dominate the most-rated list. This might be d
 ## Observation for Question 2: 
 1. Even though Star Wars was the most popular movie it got the least average rating score compared to other 9 movies. This suggests many people watched Star Wars, but not everyone liked it
 2. The rest 9 movies in the list show low ratings compared to Top 10 Most-Rated Movies, but average rating is high. It seems not every popular movie is appreciated and liked by many people. Popularity does not always correlate with perceived quality.
-### Question 3: Which genre has the highest average rating considering only movies with at least 100 ratings? 
+## Question 3: Which genre has the highest average rating considering only movies with at least 100 ratings? 
 **Result of the highest average rating by movie genre considering movies with at least 100 ratings given the count of each movie in that genre:**
-Table 1: Movies with at least 100 ratings
-genre |	avg_rating |	movie_count
+Table 1: Movies with at least 100 ratings (Columns: genre |	avg_rating |	movie_count)
 1. Film noir	4.17	5
 2. Documentary	4.09	1
 3. War	3.88	37
@@ -56,8 +55,7 @@ genre |	avg_rating |	movie_count
 16. Comedy	3.59	103
 17. Horror	3.55	19
 
-Table 2: Movies with at least 50 ratings
-genre | avg_rating | movie_count
+Table 2: Movies with at least 50 ratings (Columns: genre |	avg_rating |	movie_count)
 1. Film noir	3.93	13
 2. War	3.88	37
 3. Documentary	3.85	5
@@ -77,7 +75,7 @@ genre | avg_rating | movie_count
 17. Horror	3.55	19
 18. Fantasy	3.31	9
 
-### Observation for Question 3: 
+## Observation for Question 3: 
 Here, I want to emphasize first two things: 
 ・movie_count = how many different movies exist in that genre (that have 100 ratings)
 ・This reflects production volume, nont necessarily viewer popularity
