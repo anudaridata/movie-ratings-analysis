@@ -38,44 +38,44 @@ Movies that were produced in 1990s dominate the most-rated list. This might be d
 **Result of the highest average rating by movie genre considering movies with at least 100 ratings given the count of each movie in that genre:**
 Table 1: Movies with at least 100 ratings
 genre |	avg_rating |	movie_count
-Film noir	4.17	5
-Documentary	4.09	1
-War	3.88	37
-Drama	3.85	131
-Crime	3.82	29
-Western	3.76	8
-Romance	3.75	67
-Animation	3.71	14
-Mystery	3.7	20
-Scifi	3.68	44
-Adventure	3.66	47
-Musical	3.64	21
-Thriller	3.63	81
-Action	3.62	96
-Childrens	3.61	22
-Comedy	3.59	103
-Horror	3.55	19
+1. Film noir	4.17	5
+2. Documentary	4.09	1
+3. War	3.88	37
+4. Drama	3.85	131
+5. Crime	3.82	29
+6. Western	3.76	8
+7. Romance	3.75	67
+8. Animation	3.71	14
+9. Mystery	3.7	20
+10. Scifi	3.68	44
+11. Adventure	3.66	47
+12. Musical	3.64	21
+13. Thriller	3.63	81
+14. Action	3.62	96
+15. Childrens	3.61	22
+16. Comedy	3.59	103
+17. Horror	3.55	19
 
 Table 2: Movies with at least 50 ratings
 genre | avg_rating | movie_count
-Film noir	3.93	13
-War	3.88	37
-Documentary	3.85	5
-Drama	3.85	131
-Crime	3.82	29
-Romance	3.75	67
-Animation	3.71	14
-Mystery	3.7	20
-Western	3.7	12
-Scifi	3.68	44
-Adventure	3.66	47
-Musical	3.64	21
-Thriller	3.63	81
-Action	3.62	96
-Childrens	3.61	22
-Comedy	3.59	103
-Horror	3.55	19
-Fantasy	3.31	9
+1. Film noir	3.93	13
+2. War	3.88	37
+3. Documentary	3.85	5
+4. Drama	3.85	131
+5. Crime	3.82	29
+6. Romance	3.75	67
+7. Animation	3.71	14
+8. Mystery	3.7	20
+9. Western	3.7	12
+10. Scifi	3.68	44
+11. Adventure	3.66	47
+12. Musical	3.64	21
+13. Thriller	3.63	81
+14. Action	3.62	96
+15. Childrens	3.61	22
+16. Comedy	3.59	103
+17. Horror	3.55	19
+18. Fantasy	3.31	9
 
 ### Observation for Question 3: 
 Here, I want to emphasize first two things: 
