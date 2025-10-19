@@ -77,20 +77,20 @@ Comedy	3.59	103
 Horror	3.55	19
 Fantasy	3.31	9
 
-## Observation for Question 3: 
+### Observation for Question 3: 
 Here, I want to emphasize first two things: 
 ・movie_count = how many different movies exist in that genre (that have 100 ratings)
 ・This reflects production volume, nont necessarily viewer popularity
 ・avg_rating = how well-liked the genre is by viewers
 ・High rating = more well-liked/appreciated among respondents
 
-# Based on both tables I observe that: 
+### Based on both tables I observe that: 
 Most produced genres: Drama(131), Comedy(103), Action(96) and Thriller(81). There genres represent the most common film categories, reflecting their popularity and broad appeal in general film production. 
-# Based on Table 1 (100+ ratings threshold):
-1. Higest rated genres: Film noir(4.17), War(3.88), Documentary(4.09), Drama(3.85), Crime(3.82)
+### Based on Table 1 (100+ ratings threshold):
+Higest rated genres: Film noir(4.17), War(3.88), Documentary(4.09), Drama(3.85), Crime(3.82)
 Film noir, Documentary, War have fewer produced movies compared to Drama and Crime, yet maintain higher or equal ratings. This could mean that the movies in these genres are exceptionally well-made, or it might be due to sample size effects-fewer movies can result in less stable averages. 
 
-# Based on Table 2 (50+ ratings threshold):
-1. Higest rated genres: Film noir(3.93), War(3.88), Documentary(5)/Drama(131), Crime(29)
+### Based on Table 2 (50+ ratings threshold):
+Higest rated genres: Film noir(3.93), War(3.88), Documentary(5)/Drama(131), Crime(29)
 Lowering the threshold reveals sample size effects on ratings. For example, Documentary's rating decreased from 4.09 to 3.85 when more movies were included, converging with Drama's rating. Western's rating also decreased from the 100+ threshold, demonstrating that smaller samples can inflate averages.
 
