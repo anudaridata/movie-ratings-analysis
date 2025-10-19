@@ -11,11 +11,30 @@ This dataset consists of:
 user id | item id | rating | timestamp
 - 'u.item' - Movie information
 This is a tab separated list of: 
- movie id | movie title | release date | video release date |
-              IMDb URL | unknown | Action | Adventure | Animation |
-              Children's | Comedy | Crime | Documentary | Drama | Fantasy |
-              Film-Noir | Horror | Musical | Mystery | Romance | Sci-Fi |
-              Thriller | War | Western |
+・ movie id  <br>
+・ movie title <br>
+・ release date <br>
+・ video release date <br>
+・ IMDb URL <br>
+・ unknown <br>
+・ Action <br>
+・ Adventure <br>
+・ Animation <br>
+・ Children's <br>
+・ Comedy <br>
+・ Crime <br>
+・ Documentary <br>
+・ Drama <br>
+・ Fantasy <br>
+・ Film-Noir <br>
+・ Horror <br>
+・ Musical <br>
+・ Mystery <br>
+・ Romance <br>
+・ Sci-Fi <br>
+・ Thriller <br>
+・ War <br>
+・ Western <br>
  The movie ids are the ones used in the u.data data set.
 - 'u.user' - User demographic information
 Demographic information about the users; this is a tab
@@ -23,7 +42,8 @@ Demographic information about the users; this is a tab
               user id | age | gender | occupation | zip code
               The user ids are the ones used in the u.data data set.
 ## Note
-Data files are not uploaded to Github due to size. Download from the source link here (https://grouplens.org/datasets/movielens/100k/)
+Data files are not uploaded to Github due to size. <br>
+Download from the source link here (https://grouplens.org/datasets/movielens/100k/)
 
 ## Important context
-The dataset was collected between 1995-1998, which explains why most rated movies are from 1970s-1990s. No movies after 1999 are included in this dataset.
+The dataset was collected between 1995-1998, meaning no movies after 1998 were used in the survey.
