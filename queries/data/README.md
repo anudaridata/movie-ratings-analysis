@@ -46,4 +46,4 @@ Data files are not uploaded to Github due to size. <br>
 Download from the source link here (https://grouplens.org/datasets/movielens/100k/)
 
 ## Important context
-The dataset was collected between 1995-1998, meaning no movies after 1998 were used in the survey.
+The dataset was collected between 1995-1998, which means movies after 1998 were not used in this survey. 
