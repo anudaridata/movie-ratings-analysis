@@ -167,3 +167,10 @@ where western=1
 and movies.movie_id in (Select movie_id from ratings group by movie_id having count(*) >= 100)
 ORDER BY avg_rating DESC
 
+-- BONUS: Which year saw the highest production in movie industry? 
+-- Due to the booming economy, 1993, 1994, 1995 saw the greatest number of movies being released.
+SELECT release_date as time, count(movie_id) as count_movies
+FROM movies
+GROUP BY release_date
+ORDER BY release_date DESC
+
