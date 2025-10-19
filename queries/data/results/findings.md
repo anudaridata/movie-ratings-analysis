@@ -33,4 +33,64 @@ Movies that were produced in 1990s dominate the most-rated list. This might be d
 10. 12 Angry Men (1957)|125 ratings|4.34 average rating
 ## Observation for Question 2: 
 1. Even though Star Wars was the most popular movie it got the least average rating score compared to other 9 movies. This suggests many people watched Star Wars, but not everyone liked it
-2. The rest 9 movies in the list show low ratings compared to Top 10 Most-Rated Movies, but average rating is high. It seems not every popular movie is appreciated and liked by many people. Popularity does not always correlate with perceived quality. 
+2. The rest 9 movies in the list show low ratings compared to Top 10 Most-Rated Movies, but average rating is high. It seems not every popular movie is appreciated and liked by many people. Popularity does not always correlate with perceived quality.
+### Question 3: Which genre has the highest average rating considering only movies with at least 100 ratings? 
+**Result of the highest average rating by movie genre considering movies with at least 100 ratings given the count of each movie in that genre:**
+Table 1: Movies with at least 100 ratings
+genre |	avg_rating |	movie_count
+Film noir	4.17	5
+Documentary	4.09	1
+War	3.88	37
+Drama	3.85	131
+Crime	3.82	29
+Western	3.76	8
+Romance	3.75	67
+Animation	3.71	14
+Mystery	3.7	20
+Scifi	3.68	44
+Adventure	3.66	47
+Musical	3.64	21
+Thriller	3.63	81
+Action	3.62	96
+Childrens	3.61	22
+Comedy	3.59	103
+Horror	3.55	19
+
+Table 2: Movies with at least 50 ratings
+genre | avg_rating | movie_count
+Film noir	3.93	13
+War	3.88	37
+Documentary	3.85	5
+Drama	3.85	131
+Crime	3.82	29
+Romance	3.75	67
+Animation	3.71	14
+Mystery	3.7	20
+Western	3.7	12
+Scifi	3.68	44
+Adventure	3.66	47
+Musical	3.64	21
+Thriller	3.63	81
+Action	3.62	96
+Childrens	3.61	22
+Comedy	3.59	103
+Horror	3.55	19
+Fantasy	3.31	9
+
+## Observation for Question 3: 
+Here, I want to emphasize first two things: 
+・movie_count = how many different movies exist in that genre (that have 100 ratings)
+・This reflects production volume, nont necessarily viewer popularity
+・avg_rating = how well-liked the genre is by viewers
+・High rating = more well-liked/appreciated among respondents
+
+# Based on both tables I observe that: 
+Most produced genres: Drama(131), Comedy(103), Action(96) and Thriller(81). There genres represent the most common film categories, reflecting their popularity and broad appeal in general film production. 
+# Based on Table 1 (100+ ratings threshold):
+1. Higest rated genres: Film noir(4.17), War(3.88), Documentary(4.09), Drama(3.85), Crime(3.82)
+Film noir, Documentary, War have fewer produced movies compared to Drama and Crime, yet maintain higher or equal ratings. This could mean that the movies in these genres are exceptionally well-made, or it might be due to sample size effects-fewer movies can result in less stable averages. 
+
+# Based on Table 2 (50+ ratings threshold):
+1. Higest rated genres: Film noir(3.93), War(3.88), Documentary(5)/Drama(131), Crime(29)
+Lowering the threshold reveals sample size effects on ratings. For example, Documentary's rating decreased from 4.09 to 3.85 when more movies were included, converging with Drama's rating. Western's rating also decreased from the 100+ threshold, demonstrating that smaller samples can inflate averages.
+
